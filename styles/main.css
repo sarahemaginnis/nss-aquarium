@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Work+Sans&display=swap');
+.title {
+    font-family: 'Work Sans', sans-serif;
+}
+.h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-color: #989096;
+}
+.h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #CCB4A7;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #989096;
+    font-style: italic;
+    color: #000000;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+.some-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* align-content: flex-start; */
+    /* gap: 10px; */
+    /* gap: 10px 20px; row-gap column gap */
+    row-gap: 10px;
+    /* column-gap: 20px; */
+}
+
+.row {
+    width: 50%;
+    text-align: center;
+/*    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;*/
+/*    padding: 1em;
+    margin: 0.5em;*/
+    /*flex-basis: 16%;*/
+}
+  
+.column {
+/*    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;*/
+    padding: 1em;
+    margin: 0.5em;
+    /*flex-basis: 16%;*/
+}
+
+img {
+    width: 90%;
+}
+
+li {
+    text-align: left;
+}
