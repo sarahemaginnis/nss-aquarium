@@ -38,7 +38,7 @@ aside > p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     /* align-content: flex-start; */
     /* gap: 10px; */
     /* gap: 10px 20px; row-gap column gap */
@@ -47,8 +47,8 @@ aside > p {
 }
 
 .row {
-    width: 50%;
-    text-align: center;
+    /* width: 50%;
+    text-align: center; */
 /*    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,19 +59,20 @@ aside > p {
 }
   
 .column {
-/*    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: space-evenly;*/
-    padding: 1em;
-    margin: 0.5em;
-    /*flex-basis: 16%;*/
+    width: 45%;
 }
 
 img {
-    width: 90%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 li {
     text-align: left;
+}
+
+.image__container {
+    width: 90%;
+    height: 50vh;
+    align-items: center;
 }
