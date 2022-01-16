@@ -5,14 +5,13 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body class="body">
-    <script src="" async defer></script>
     <h1 class="h1">MARTIN'S AQUARIUM</h1>
     <main>
       <h2 class="h2">Fish</h2>
       <!--Main flexbox component-->
       <section class="some-page-wrapper">
         <!--Row 1-->
-        <div class="row">
+        <!-- <div class="row"> -->
           <!--Row 1 Column 1-->
           <div class="column">
             <img src="images/angelfish.jpg" alt="angelfish fish">
@@ -43,12 +42,14 @@
               <li>Diet: Omnivore, including larger pellets, live foods, and meaty foods</li>
             </p>
           </div>
-        </div>
+        <!-- </div> -->
         <!--Row 2-->
-        <div class="row">
+        <!-- <div class="row"> -->
           <!--Row 2 Column 1-->
           <div class="column">
-            <img src="images/swordtail.jpg" alt="swordtail fish">
+            <div class="image__container">
+              <img src="images/swordtail.jpg" alt="swordtail fish">
+            </div>
             <h3 class="h3">Swordtail</h3>
             <aside class="fish__aside">
               <p>Tank size 20 gallons with water conditions 63-81° F, KH 12-30, pH 7.0-8.2</p>
@@ -76,7 +77,7 @@
               <li>Diet: Omnivore favoring live water plants and algae</li>
             </p>
           </div>
-        </div>
+        <!-- </div> -->
       </section>
       <!--Quote component-->
       <section class="some-page-wrapper">
@@ -91,5 +92,6 @@
         <li>Malaysia</li>
       </p>
     </main>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
