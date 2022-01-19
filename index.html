@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title class="title">Martin's Aquarium</title>
     <link rel="stylesheet" href="styles/main.css">
@@ -8,77 +8,6 @@
     <h1 class="h1">MARTIN'S AQUARIUM</h1>
     <main>
       <h2 class="h2">Fish</h2>
-      <!--Main flexbox component-->
-      <section class="some-page-wrapper">
-        <!--Row 1-->
-        <!-- <div class="row"> -->
-          <!--Row 1 Column 1-->
-          <div class="column">
-            <img src="images/angelfish.jpg" alt="angelfish fish">
-            <h3 class="h3">Angelfish</h3>
-            <aside class="fish__aside">
-              <p>Tank size 30 gallons with minimum water conditions 75-82° F, KH 1-5, pH 5.8-7.0</p>
-            </aside>
-            <p class="fish__details">
-              <li>Species: Angelfish</li>
-              <li>Length: 6-8 inches</li>
-              <li>Name: Heaven's Door</li>
-              <li>Harvest Location: Amazon Basin</li>
-              <li>Diet: omnivore (2-3 times a day) including worm, small crustaceans, shrimp pellets, marine algae, frozen live foods etc.</li>
-            </p>
-          </div>
-          <!--Row 1 Column 2-->
-          <div class="column">
-            <img src="images/oscar.jpg" alt="oscar fish">
-            <h3 class="h3">Oscar</h3>
-            <aside class="fish__aside">
-              <p>Tank size 55 gallons with moderate water parameters 74-81° F, pH 6-8, 5-20dH</p>
-            </aside>
-            <p class="fish__details">
-              <li>Species: Oscar</li>
-              <li>Length: 16 inches (usually 12 inches)</li>
-              <li>Name: The Grouch</li>
-              <li>Harvest Location: South America</li>
-              <li>Diet: Omnivore, including larger pellets, live foods, and meaty foods</li>
-            </p>
-          </div>
-        <!-- </div> -->
-        <!--Row 2-->
-        <!-- <div class="row"> -->
-          <!--Row 2 Column 1-->
-          <div class="column">
-            <div class="image__container">
-              <img src="images/swordtail.jpg" alt="swordtail fish">
-            </div>
-            <h3 class="h3">Swordtail</h3>
-            <aside class="fish__aside">
-              <p>Tank size 20 gallons with water conditions 63-81° F, KH 12-30, pH 7.0-8.2</p>
-            </aside>
-            <p class="fish__details">
-              <li>Species: Swordtail</li>
-              <li>Length: 4-5 inches</li>
-              <li>Name: Inigo Montoya</li>
-              <li>Harvest Location: Central America</li>
-              <li>Diet: Omnivore, including commercially processed foods such as vegetable-based flakes, tubifex bloodworms, brine shrimp or plant-based diets including algae</li>
-            </p>
-          </div>
-          <!--Row 2 Column 2-->
-          <div class="column">
-            <img src="images/molly.jpg" alt="molly fish">
-            <h3 class="h3">Molly</h3>
-            <aside class="fish__aside">
-              <p>Tank size 20 gallons with water conditions 75-82° F, KH 10-25, pH 7.5-8.5</p>
-            </aside>
-            <p class="fish__details">
-              <li>Species: Molly</li>
-              <li>Length: 6-7 inches</li>
-              <li>Name: Common </li>
-              <li>Harvest Location: Malaysia</li>
-              <li>Diet: Omnivore favoring live water plants and algae</li>
-            </p>
-          </div>
-        <!-- </div> -->
-      </section>
       <!--Quote component-->
       <section class="some-page-wrapper">
         <blockquote cite="Matshona Dhliwayo" class="quote__one">"Great fish do not swim in shallow waters." - Matshona Dhliwayo</blockquote>
@@ -86,12 +15,14 @@
       <!--Harvest Locations component-->
       <h2 class="h2">Harvest Locations</h2>
       <p class="harvest-locations">
-        <li>Amazon Basin</li>
-        <li>South America</li>
-        <li>Central America</li>
-        <li>Malaysia</li>
+        <ul>
+          <li>Amazon Basin</li>
+          <li>South America</li>
+          <li>Central America</li>
+          <li>Malaysia</li>
+        </ul>
       </p>
     </main>
-    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
