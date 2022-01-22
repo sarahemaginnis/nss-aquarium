@@ -1,32 +1,39 @@
 const database = {
     fish: [
         {
-            name: "Bart",
-            food: "crustaceans",
-            size: 3
-        },
-        {
             name: "Heaven's Door",
             food: "worm",
-            size: 6
+            length: 6,
+            species: "Angelfish",
+            location: "South America",
+            image: "./images/angelfish.jpg"
         },
         {
             name: "The Grouch",
             food: "pellets",
-            size: 16
+            length: 16,
+            species: "Oscar",
+            location: "Central America",
+            image: "./images/oscar.jpg"
         },
         {
             name: "Inigo Montoya",
             food: "flakes",
-            size: 4
+            length: 4,
+            species: "Swordtail",
+            location: "Malaysia",
+            image: "./images/swordtail.jpg"
         },
         {
             name: "Common",
             food: "algae",
-            size: 6
+            length: 6,
+            species: "Molly",
+            location: "South America",
+            image: "./images/molly.jpg"
         }
     ]
 };
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
-};
+}
