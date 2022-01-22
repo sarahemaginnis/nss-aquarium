@@ -1,8 +1,8 @@
-// import { getFish } from './database.js'
+import { getFish } from './database.js'
 
 import { FishList } from './fishlist.js'
 
-const allFish = FishList()
+const allFish = getFish()
 
 for (const fish of allFish) {
     console.log(fish)
@@ -19,3 +19,15 @@ for (const fish of allFish) {
 const parentHTMLElement = document.querySelector('#javascript')
     
 parentHTMLElement.innerHTML = FishList()
+
+import { mostHolyFish } from './database.js'
+
+console.log(mostHolyFish())
+
+import { soldierFish } from './database.js'
+
+console.log(soldierFish())
+
+import { nonHolyFish } from './database.js'
+
+console.log(nonHolyFish())
